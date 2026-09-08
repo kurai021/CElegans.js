@@ -1,0 +1,55 @@
+# ==========================================
+# QML & Qt Language Server Specifics
+# ==========================================
+*.qmlc
+*.jsc
+**/.qmlls.ini
+**/.aiignore
+
+# ==========================================
+# Qt Creator & User-Specific IDE Files
+# ==========================================
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+CMakeLists.txt.user*
+*creator.user*
+*.autosave
+
+# ==========================================
+# Build Artifacts & Directories
+# ==========================================
+# Ignore the entire standard build directory pattern
+build*/
+*build-*/
+
+# C++ generated files from Qt compilers
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.prl
+
+# Core build system files
+Makefile*
+object_script.*
+
+# ==========================================
+# Testing & Wrappers
+# ==========================================
+target_wrapper.*
+
+# ==========================================
+# Operating System & General IDEs (Optional)
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
